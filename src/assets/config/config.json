@@ -1,0 +1,30 @@
+{
+    "language": "en",
+    "API_HOST": "http://localhost:1337/admin",
+    "R_CUSTOMER": "/customer",
+    "R_PRODUCT": "/product",
+    "R_ORDER": "/order",
+    "R_LOCATION": "/location",
+    "CUSTOMER": {
+        "ActiveAccount": "/active-account",
+        "GetUser": "/get-user",
+        "GetViewProduct": "/get-viewed-product",
+        "GetOrder": "/get-order",
+        "UpdateProfile": "/update-profile",
+        "GetProductEvaluate": "/get-product-evaluate",
+        "PostFavoriteProduct": "/post-favorite-product"
+    },
+    "PRODUCT": {
+        "ProductHot": "/get-product-hot",
+        "ProductNew": "/get-new-product",
+        "ProductRecent": "/get-product-recent",
+        "GetDetailProduct": "/get-detail-product",
+        "PostProductView": "/post-product-viewed"
+    },
+    "ORDER": {
+        "GetAllOrder": "/get-all-order"
+    },
+    "MARKETPLACE": {
+        "GetMarketplace": "/get-all-marketplace"
+    }   
+}
